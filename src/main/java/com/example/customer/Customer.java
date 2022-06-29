@@ -46,11 +46,6 @@ public class Customer {
 	@Column(name="loan_offered")
 	 private double  loan_offered;
 	
-	
-	
-	
-	
-	
 
 	public Customer() {
 		super();
@@ -150,9 +145,7 @@ public class Customer {
 //	 private String  user;
 	 
 	 
-	 
-
-	 
+	
 	 
 	
 }
