@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.LinkedList;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -15,6 +16,7 @@ import lombok.NoArgsConstructor;
 
 @RestController
 @RequestMapping(path="/api")
+@CrossOrigin(origins = "http://localhost:3000",exposedHeaders = "Access-Control-Allow-Origin")
 
 public class Controller {
 
